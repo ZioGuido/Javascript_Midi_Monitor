@@ -1,0 +1,23 @@
+
+body 		{ 
+	font-size: 26px; font-family: Courier; font-weight: bold; color: #FFFFFF; BACKGROUND-COLOR: #000000;
+	background-repeat: no-repeat; background-position: top left; background-size: cover; background-attachment: fixed;
+	/*
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	*/
+
+}
+
+
+.note_on 	{ color: rgb(0, 150, 150); }
+.note_off 	{ color: rgb(6, 255, 6); }
+.controller 	{ color: rgb(10, 165, 255); }
+.prog 		{ color: rgb(180, 65, 200); }
+.pressure	{ color: rgb(50, 210, 210); }
+.pitchbend	{ color: rgb(255, 5, 50); }
+.sysex		{ color: #1FF0F0; }

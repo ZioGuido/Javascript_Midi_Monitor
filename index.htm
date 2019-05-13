@@ -1,0 +1,43 @@
+<script>
+if (location.protocol != 'file:')
+	if (location.protocol != 'https:')
+		location.protocol = "https:";
+</script>
+
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE>MIDI MONITOR</TITLE>
+
+<link media="screen" href="main.css" rel="stylesheet" type="text/css">
+
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<!-- jquery plugins -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+
+<!-- main script -->
+<script type="text/javascript" src="main.js"></script>
+</HEAD>
+
+<BODY ondragstart="return false;" ondrop="return false;">
+
+Select your MIDI INPUT port:
+<select id=InPort name=InPort onChange="SetPort(this.value)">
+<option value="">--- NO SELECTION ---</option>
+</select>
+
+
+<div id=MonitorBox></id>
+
+
+</BODY>
+</HTML>
+
+<!--
+by Guido Scognamiglio (c)
+Last Upd: Oct 2018
+-->
